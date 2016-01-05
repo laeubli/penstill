@@ -32,12 +32,26 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+    
+    <div class="row" style="margin-top: 25%">
+      <div class="four columns" id="previous-image-container">
+        <div id="previous-image">hans</div>
+      </div>
+      <div class="eight columns" id="previous-sentence-container">
+        <p id="previous-sentence">This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
       </div>
     </div>
+
+    <div class="row" style="margin-top: 5%">
+      <div class="twelve columns" id="current-sentence-container">
+        <form>
+          <textarea class="u-full-width" placeholder="Type here…" id="current-sentence"></textarea>
+          <input class="button-primary u-pull-right" type="submit" value="Submit">
+          <div id="camera" style="width:320px; height:240px;"></div>
+        </form>
+      </div>
+    </div>
+
   </div>
 
 <!-- End Document
