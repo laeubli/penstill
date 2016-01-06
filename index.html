@@ -20,11 +20,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/penstill.css">
 
   <!-- Libraries
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="lib/jquery/jquery-2.1.4.min.js"></script>
   <script src="lib/webcamjs/webcam.js"></script>
+  <script src="lib/penstill.js"></script>
 
 </head>
 <body>
@@ -33,22 +35,23 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     
-    <div class="row" style="margin-top: 25%">
+    <div class="row" style="margin-top: 10%">
       <div class="four columns" id="previous-image-container">
-        <div id="previous-image">hans</div>
+        <div id="previous-image"></div>
       </div>
       <div class="eight columns" id="previous-sentence-container">
-        <p id="previous-sentence">This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+        <p id="previous-sentence"></p>
       </div>
     </div>
 
     <div class="row" style="margin-top: 5%">
       <div class="twelve columns" id="current-sentence-container">
-        <form>
+        <form id="current-sentence-submit">
           <textarea class="u-full-width" placeholder="Type here…" id="current-sentence"></textarea>
           <input class="button-primary u-pull-right" type="submit" value="Submit">
-          <div id="camera" style="width:320px; height:240px;"></div>
+          <div id="camera"></div>
         </form>
+
       </div>
     </div>
 

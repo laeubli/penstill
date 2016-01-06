@@ -1,0 +1,12 @@
+#camera {
+	width: 320px;
+	height: 240px;
+}
+
+#previous-image {
+	height: 240px;
+}
+
+#current-sentence, #previous-sentence {
+	font-size: 120%;
+}
